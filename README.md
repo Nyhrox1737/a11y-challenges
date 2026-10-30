@@ -6,14 +6,14 @@ muets pour un lecteur d'écran. Applique les patterns ARIA vus dans la quête.
 ## Checklist à cocher
 
 **Accordion** :
-- [ ] `aria-expanded` sur le bouton déclencheur, synchronisé avec l'état
-- [ ] `aria-controls` reliant le bouton au panneau qu'il contrôle
-- [ ] Un `id` unique sur le panneau pour que `aria-controls` pointe dessus
+- [x] `aria-expanded` sur le bouton déclencheur, synchronisé avec l'état
+- [x] `aria-controls` reliant le bouton au panneau qu'il contrôle
+- [x] Un `id` unique sur le panneau pour que `aria-controls` pointe dessus
 
 **Modal** :
-- [ ] `role="dialog"` et `aria-modal="true"` sur le conteneur de la modale
-- [ ] `aria-labelledby` pointant vers le `<h2>` du titre
-- [ ] La touche `Échap` ferme la modale (`onKeyDown` sur le document ou la modale)
+- [x] `role="dialog"` et `aria-modal="true"` sur le conteneur de la modale
+- [x] `aria-labelledby` pointant vers le `<h2>` du titre
+- [x] La touche `Échap` ferme la modale (`onKeyDown` sur le document ou la modale)
 
 (Le focus trap complet est la quête suivante, concentre-toi sur les rôles/états ARIA et Échap.)
 
